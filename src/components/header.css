@@ -7,7 +7,7 @@ header {
     gap: 50px;
     padding: 46px var(--lr-gap);
     z-index: 1;
-    background-color: black;
+    
 }
 
 .header__left-column {

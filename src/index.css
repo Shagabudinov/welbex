@@ -95,12 +95,14 @@ h3 {
   position: absolute;
   top: 83px;
   left: 519px;
+  filter: blur(3px);
 }
 
 .small-red-ball {
   position: absolute;
   top: 547px;
   right: 561px;
+  filter: blur(3px);
 }
 
 .small-red-ball img {

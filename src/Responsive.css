@@ -163,15 +163,31 @@
 }
 
 @media screen and (max-width: 569px) {
-  .nav-container {
-    gap: 28px;
-  }
-  .nav-container p {
-    text-transform: uppercase;
-  }
-  .footer__right-column {
-    justify-content: flex-start;
-  }
+    .purple-ball {
+        top: 35%;
+        right: -10%;
+    }
+    .small-red-ball {
+        width: 80px;
+        height: 80px;
+        top: 66%;
+        left: 12%;
+        z-index: -1;
+    }
+    .small-red-ball img {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .nav-container {
+        gap: 28px;
+    }
+    .nav-container p {
+        text-transform: uppercase;
+    }
+    .footer__right-column {
+        justify-content: flex-start;
+    }
 }
 
 @media screen and (max-width: 569px) {
@@ -181,6 +197,10 @@
 }
 
 @media screen and (max-width: 413px) {
+  
+  header {
+    background-color: black;
+  }
   button {
     display: none;
   }
@@ -206,6 +226,7 @@
   }
   .footer {
     padding-left: 6%;
+    background-color: black;
   }
   .footer__menu-container {
     gap: 40px;
