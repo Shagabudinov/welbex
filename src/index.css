@@ -1,13 +1,121 @@
 body {
+  background-color: #0e1014;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+p,
+li,
+h2, h3 {
+  margin: 0;
+  color: var(--light-text);
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  color: var(--color-gray);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+
+:root {
+  --lr-gap: 8%;
+  --def-gap: 30px;
+  --light-text: #e4e5ea;
+  --color-3: #4077F3;
+  --color-gray: #656566;
+  --main-grad: linear-gradient(to right, #fcb045, #ff3f78);
+}
+
+.text {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title {
+  display: inline;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  letter-spacing: 0.9px;
+}
+
+.title-mg {
+  margin-bottom: 20px;
+
+}
+
+.gradient {
+  background-image: var(--main-grad);
+  background-clip: text;
+  -webkit-background-clip: text; /* Для поддержки веб-кит браузеров */
+  color: transparent;
+}
+
+.red-light{
+    position: absolute;
+    top: 251px;
+    left: -102px;
+
+    width: 311px;
+    height: 311px;
+
+    border-radius: 311px;
+
+    opacity: 0.9;
+    background: #961A1A;
+    filter: blur(196px);
+}
+
+.purple-ball {
+  position: absolute;
+  top: -2px;
+  right: 512px;
+}
+
+.red-ball {
+  position: absolute;
+  top: 83px;
+  left: 519px;
+}
+
+.small-red-ball {
+  position: absolute;
+  top: 547px;
+  right: 561px;
+}
+
+.small-red-ball img {
+  width: 28px;
+  height: 28px;
+}
+
+.line {
+  display: none;
+  width: 10px;
+  height: 2px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.description {
+  display: block;
 }

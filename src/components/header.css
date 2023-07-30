@@ -4,9 +4,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 137px;
-    padding-top: 46px;
+    gap: 50px;
+    padding: 46px var(--lr-gap);
     z-index: 1;
+    background-color: black;
 }
 
 .header__left-column {
